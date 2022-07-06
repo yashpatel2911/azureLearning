@@ -1,0 +1,16 @@
+{
+	"name": "DestinationDataset_793",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureTableStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "volcanoData"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

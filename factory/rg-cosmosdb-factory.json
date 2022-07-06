@@ -1,0 +1,9 @@
+{
+	"name": "rg-cosmosdb-factory",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5c273472-e5ff-4233-b69b-bc64abe49b90",
+		"tenantId": "7b292ca4-e1b7-4989-b2fa-98687ae48e8e"
+	}
+}
