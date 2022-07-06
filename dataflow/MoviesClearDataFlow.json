@@ -41,7 +41,8 @@
 				"     validateSchema: false,",
 				"     partitionFileNames:['moviesClean.csv'],",
 				"     skipDuplicateMapInputs: true,",
-				"     skipDuplicateMapOutputs: true) ~> MoviesClean"
+				"     skipDuplicateMapOutputs: true,",
+				"     partitionBy('hash', 1)) ~> MoviesClean"
 			]
 		}
 	}
